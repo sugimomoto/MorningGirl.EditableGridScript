@@ -1,7 +1,6 @@
 // 予測計算Script
 function CalculateForecast(context)
 {
-	debugger;
 	
 	// 実行コンテキストからAttributeオブジェクトを取得
 	var attributesObject = context.getFormContext().data.entity.attributes;
